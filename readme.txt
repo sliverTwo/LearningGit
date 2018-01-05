@@ -16,3 +16,11 @@ git command
     git rm <fileName> #将删除的文件提交到暂缓区
     ssh-keygen -t rsa -C "youremail@example.com" # 产生rsa密钥对（默认保存在user/.ssh目录下）
     git remote add origin git@github.com:<username>/<仓库名>.git # 关联github上的仓库
+    git push -u origin master # 第一次推送至远程仓库
+    git push origin master # 推送至远程仓库
+    git clone git@github.com:<用户名>/<仓库名>.git # 从github上clone仓库到本地
+    git checkout -b <分支名> # 创建一个分支并切换到这个分支
+    git branch <分支名> # 创建一个分支
+    git checkout <分支名> # 切换到指定分支
+    git branch # 查看所有分支
+
