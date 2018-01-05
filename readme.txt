@@ -22,5 +22,7 @@ git command
     git checkout -b <分支名> # 创建一个分支并切换到这个分支
     git branch <分支名> # 创建一个分支
     git checkout <分支名> # 切换到指定分支
-    git branch # 查看所有分支
+    git branch # 查看所有分支 -d <分支名> 删除分支
+    git merge <分支名> 将分支合并到master上
+    
 
