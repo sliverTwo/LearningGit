@@ -10,3 +10,9 @@ git command
     git reset  --hard HEAD^ # 回退至上个版本
     git reflog # 显示所有版本号
     git reset --hard <指定版本号> # 回退至指定版本
+    git diff HEAD --<fileName> # 查看git中版本与工作区版本的不同
+    git checkout -- <fileName> # 丢弃工作区的修改
+    git reset HEAD <fileName> # 丢弃工作区的修改(已经add到暂缓区),再执行上句
+    git rm <fileName> #将删除的文件提交到暂缓区
+    ssh-keygen -t rsa -C "youremail@example.com" # 产生rsa密钥对（默认保存在user/.ssh目录下）
+    git remote add origin git@github.com:<username>/<仓库名>.git # 关联github上的仓库
